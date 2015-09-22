@@ -1,0 +1,465 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+#homepage {
+  color: #5a5a5a;
+  height: 1290px;
+}
+
+body {
+  height: 990px;
+}
+
+.container{
+  padding: 0px;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+}
+
+#navbar {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+  /*Changes Below Stretch the Navbar across the whole screen*/
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background-color: #07498b;
+  margin-bottom: 0px;
+  height: 100%  
+}
+
+.navbar > .container {
+  height: 100%;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 0;
+}
+.navbar-wrapper .navbar .container {
+  width: 100%;
+}
+
+.navbar-nav {
+  height: 100%;
+  width: 71%
+}
+
+.navbar-header{
+  padding-left: 15px;
+  height: 100%;
+  width: 29%;
+}
+
+
+#logo {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100%;
+}
+
+#logo > .navbar-brand {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Asset', cursive;
+  font-size: 25px;
+}
+
+.navbar-nav > li {
+  height: 100%;
+  width: 20%
+}
+
+.nav > li > a {
+  border-left: 1px solid rgba(0,0,0,0.2); /*Thin Vertical Separator*/
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.submenu-item > a {
+  border-top: 1px solid rgba(0,0,0,0.2); /*Thin Horizontal Separator*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100%;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  height: 100%;
+  text-align: center;
+  background-color: inherit;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a, .navbar-inverse .navbar-nav > .dropdown > a:hover, .navbar-inverse .navbar-nav > .dropdown > a:focus {
+  height: 100%;
+  text-align: center;
+  background-color: inherit;
+  width: 100%;
+}
+
+
+.navbar #submenu-about, .navbar #submenu-projects {
+  visibility: hidden;
+  padding: 0px;
+}
+
+.navbar #submenu-about {
+  height: 90px;
+}
+
+#submenu-about > li {
+  height: 33%
+}
+
+
+
+.navbar #submenu-projects {
+  height: 75px;
+}
+
+#submenu-projects > :first-child {
+  height: 66%;
+}
+
+#submenu-item > li {
+  height: 33%
+}
+
+.navbar ul li:hover > ul a {
+  display: block;
+  visibility: visible;
+  background-color: inherit;
+  color: white;
+  height: 40%;
+}
+
+.navbar ul ul li div {
+  text-align: center;
+  width: 100%;
+  background-color: #07498b;
+}
+
+
+.navbar-collapse{
+  background-color: #07498b;
+  width: 100%;
+  margin: 0px;
+}
+/*************Page Backgrounds*****************/
+#adopt-a-highway-content {
+  height: 900px;
+  width: 100%;
+  margin: 0px;
+
+}
+
+#adopt-a-highway-content > #large-image {
+  height: 45%;
+}
+
+.col-lg-8 {
+  height: 100%;
+  width: 60%;
+  padding: 0px;
+}
+
+.col-lg-8 > .container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.col-lg-2 {
+  height: 100%;
+  width: 20%;
+  padding: 0px;
+}
+
+.col-lg-2 > img {
+  height: 100%;
+  width: 100%
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+}
+/*Adjust height of all the divs that make up the carousel into %s */
+.carousel-inner {
+  height: 100%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 100%;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+}
+
+/*Jumbotron*/
+#large-image {
+  background-color: #7A7A85;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.jumbotron .container  {
+  width: 100%;
+  height: 100%;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: 100%;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+#marketing {
+  height: 800px;
+  background-color: #8F8F8F;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  background-image: url("images/Pittsburgh.jpg");
+}
+
+#main-content {
+  height: 500px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+/* Thin out the marketing headings */
+#featurette {
+  height: 300px;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+#content {
+  height: 50%;
+  width: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.col-lg-4 {
+  height: 100%;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+.col-md-7 {
+  height: 100%; 
+}
+
+/*******individual page stylings***********/
+#pbs-about {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 500px;
+}
+
+#pbs-about > h3 {
+  color: #065c98;
+  text-align: center;
+}
+
+#adopt-a-highway-content h3 {
+  color: #065c98;
+  text-align: center;
+}
+
+#adopt-a-highway-content .col-lg-8 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/*Footer
+--------------------------------------------------*/
+#homepage > footer {
+  background-color: #07498b;
+  height: 30px;
+  width: 100%;
+}
+
+footer {
+  background-color: #07498b;
+  height: 30px;
+  width: 100%;
+}
+
+footer p {
+  margin: 0%;
+  color: #C0C0C0;
+  text-align: center;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media (max-width: 767px) {
+  #logo {
+    padding-top: 7%;
+  }
+
+  #logo > .navbar-brand {
+    padding: 0px;
+    float: none;
+    font-size: -webkit-xxx-large;
+  }
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color: white;
+    margin-top: 5%
+  }
+  
+  .navbar-nav{
+    margin: 0px;
+  }
+
+  .navbar ul ul {
+    visibility: visible;
+    padding: 0px;
+  }
+
+  .navbar-nav > li  {
+    height: 10%;
+    width: 100%;
+    padding-left: 20%;
+  }
+  
+  .navbar-nav .dropdown {
+    height: 40%;
+  }
+
+  .navbar #submenu-about a, .navbar #submenu-projects a {
+  visibility: visible;
+  padding: 0px;
+  display: block;
+  background-color: inherit;
+  color: white;
+}
+
+  .navbar ul #submenu-about {
+    height: 75%;
+  }
+
+  #submenu-about > li  {
+    height: 33%;
+    width: 100%;
+    padding-left: 20%;
+  }
+
+  #submenu-projects > li {
+    padding-left: 40%;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 0px;
+    border-left: none;
+  }
+
+  .navbar-inverse .navbar-nav > .dropdown > a, .navbar-inverse .navbar-nav > .dropdown > a:hover, .navbar-inverse .navbar-nav > .dropdown > a:focus {
+    padding: 0px;
+    border-left: none;
+    height: 25%;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    padding: 0px;
+    border-left: none;
+  }
+
+/*Main Content*/
+  .col-lg-4 {
+    height: 33.33333333%;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+/******************* Future phone navbar update*********************/
+.navbar-phone {
+  margin-bottom: 0px;
+  border: 0px;
+  padding: 0px;
+  position: static;
+  border-radius: 0px;
+}
