@@ -27,6 +27,12 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    
+        <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -38,6 +44,7 @@
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
+              <!--controls the navbar in small screens-->
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -51,18 +58,8 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">HOME</a></li>
-                <li class="dropdown"><a href="blue-promise-about.html">ABOUT US</a>
-                  <ul id="submenu-about">                    <li><div class="submenu-item"><a href="blue-promise-about.html">BLUE PROMISE</a></div></li>
-                    <li><div class="submenu-item"><a href="phi-beta-sigma.html">PHI BETA SIGMA</a></div></li>
-                    <li><div class="submenu-item"><a href="sigma-beta-club.html">SIGMA BETA CLUB</a></div></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#">PROJECTS</a>
-                  <ul id="submenu-projects">
-                    <li><div class="submenu-item"><a href="#">Sigmas Against Domestic Abuse</a></div></li>
-                    <li><div class="submenu-item"><a href="adopt-a-highway.html">Adopt-A-Highway</a></div></li>
-                  </ul> 
-                </li>
+                <li><a href="phi-beta-sigma.html">Phi Beta Sigma</a></li>
+                <li><a href="sigma-beta-club.html">Sigma Beta Club</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
                 <li class="active"><a href="#">DONATE</a></li>
                 </li>
@@ -79,26 +76,32 @@
     ================================================== -->
     <div id="large-image" class="jumbotron">
       <div class="container">
-        <h1>Under Construction</h1>
-        <p>Please bear with us as we work to get all website features up an running at this time. Thank you.</p>
+        <img src="images/sigma-beta-awards.jpg">
       </div>
     </div>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div id="donate-content" class="row">  
+      <div class="col-lg-2">
+          
+      </div class="col-lg-2">
 
-    <div id="content" class="container">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="5LPDHX63F8S7A">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
+      <div class="col-lg-8">
+        <div id="content" class="container">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="5LPDHX63F8S7A">
+            <input type="image" src="images/paypal-alternate-donate-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div><!-- /.container -->
+      </div><!--col-lg-8-->
 
-     
-
-
-    </div><!-- /.container -->
+      <div class="col-lg-2">
+          
+      </div class="col-lg-2">
+    </div><!--row-->
        <!-- FOOTER -->
     <footer>
       <p>&copy; 2015 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>

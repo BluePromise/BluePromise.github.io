@@ -311,7 +311,6 @@ body {
   margin-left: 10px;
 }
 
-
 /* Featurettes
 ------------------------- */
 
@@ -345,7 +344,30 @@ body {
   height: 100%; 
 }
 
+#donate-content, .row {
+  height: 50%;
+}
+
+#donate-content > .col-lg-2 {
+  margin: 0px;
+}
+
+#donate-content > .col-lg-8 {
+  margin: 0px;
+  padding-top: 20px;
+}
+
+#thank-you {
+  height: auto;
+}
+
+#thank-you h1 {
+  color: #065c98;
+  font-weight: bold;
+}
+
 /*******individual page stylings***********/
+/*Phi Beta Sigma*/
 #pbs-about {
   padding-left: 100px;
   padding-right: 100px;
@@ -357,6 +379,7 @@ body {
   text-align: center;
 }
 
+/*Adopt-A-Highway*/
 #adopt-a-highway-content h3 {
   color: #065c98;
   text-align: center;

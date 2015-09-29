@@ -27,13 +27,16 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-    
+    <link href="sigma-beta-club.css" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">    
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body>
+  <body id="sigma-beta-club">
     <div id="beta"><p>Website Under Construction, please bear with us as we improve functionality. Thank You.</p></div>
     <div class="navbar-wrapper">
       <div class="container">
@@ -41,6 +44,7 @@
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
+              <!--controls the navbar in small screens-->
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -54,19 +58,8 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">HOME</a></li>
-                <li class="active dropdown"><a href="blue-promise-about.html">ABOUT US</a>
-                  <ul id="submenu-about">
-                    <li><div class="submenu-item"><a href="blue-promise-about.html">BLUE PROMISE</a></div></li>
-                    <li><div class="submenu-item"><a href="phi-beta-sigma.html">PHI BETA SIGMA</a></div></li>
-                    <li><div class="submenu-item"><a href="#">SIGMA BETA CLUB</a></div></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#">PROJECTS</a>
-                  <ul id="submenu-projects">
-                    <li><div class="submenu-item"><a href="#">Sigmas Against Domestic Abuse</a></div></li>
-                    <li><div class="submenu-item"><a href="adopt-a-highway.html">Adopt-A-Highway</a></div></li>
-                  </ul> 
-                </li>
+                <li><a href="phi-beta-sigma.html">Phi Beta Sigma</a></li>
+                <li class="active"><a href="#">Sigma Beta Club</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
                 <li><a href="donate.html">DONATE</a></li>
                 </li>
@@ -90,31 +83,73 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div id="pbs-about" class="container">
-      <h3>History of the Sigma Beta Club</h3>
+    <div id="sbc-about" class="row">
       
-      <p>In the early 1950s, Phi Beta Sigma Fraternity became the first Greek organization to develop a youth auxiliary group. Under the direction of Dr. Parlett L. Moore (pictured) the Sigma Beta Club was founded. While as National Director of Education, Brother Moore was concerned about our changing needs in our communities and recognized the important role that Sigma men could play in the lives of our youth.</p>
+      <div class="col-lg-1">
 
-      <p>On April 23, 1954, the first Sigma Beta Club was organized in Montgomery, AL. Throughout its existence, Sigma Beta Clubs have been an essential part of the total organizational structure of many of the Alumni chapters of Phi Beta Sigma Fraternity, Inc. and offers men of Sigma a unique opportunity to develop wholesome value, leadership skills, and social and cultural awareness of youth at a most critical stage in the youth’s personal development.</p>
+      </div>
 
-      <p>In addition to the national programs of Sigma Beta Club, it also focuses on Culture, Athletics, Social and Educational needs. Sigma Beta Club programs are geared to meet the needs of its members, but at the same time provide them with a well-rounded outlook that is needed to cope with today’s society. Phi Beta Sigma is confident that investing in our youth today will produce effective leaders of tomorrow.</p>
+      <div class="col-lg-5">
+        <h2>History of the Sigma Beta Club</h2>
+        
+        <p>In the early 1950s, Phi Beta Sigma Fraternity became the first Greek organization to develop a youth auxiliary group. Under the direction of Dr. Parlett L. Moore (pictured) the Sigma Beta Club was founded. While as National Director of Education, Brother Moore was concerned about our changing needs in our communities and recognized the important role that Sigma men could play in the lives of our youth.</p>
 
-      <p>Sigma Beta Clubs also provide services to youths in their communities. Phi Beta Sigma Fraternity, Inc.’s interest in fostering the development of youth into effective leaders has been realized in the establishment of strong and productive Sigma Beta Clubs all across the country.</p>
+        <p>On April 23, 1954, the first Sigma Beta Club was organized in Montgomery, AL. Throughout its existence, Sigma Beta Clubs have been an essential part of the total organizational structure of many of the Alumni chapters of Phi Beta Sigma Fraternity, Inc. and offers men of Sigma a unique opportunity to develop wholesome value, leadership skills, and social and cultural awareness of youth at a most critical stage in the youth’s personal development.</p>
 
+        <p>In addition to the national programs of Sigma Beta Club, it also focuses on Culture, Athletics, Social and Educational needs. Sigma Beta Club programs are geared to meet the needs of its members, but at the same time provide them with a well-rounded outlook that is needed to cope with today’s society. Phi Beta Sigma is confident that investing in our youth today will produce effective leaders of tomorrow.</p>
 
-      <!-- /END THE FEATURETTES -->
+        <p>Sigma Beta Clubs also provide services to youths in their communities. Phi Beta Sigma Fraternity, Inc.’s interest in fostering the development of youth into effective leaders has been realized in the establishment of strong and productive Sigma Beta Clubs all across the country.</p>
+      </div>
 
+      <div class="col-lg-5">
+        <div role="button">
+          <div class="tenant">
+            <span class="fa-stack fa-lg tenant-icon">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-plus fa-stack-1x"></i>
+            </span>
+            <span class="tenant-title">Education</span>
+          </div>
+          <div class="tenant-text">
+            <p>Academic Enrichment & Mentoring</p>
+            <p>Club members receive academic assistance and leadership development at the elementary, middle and high school levels. This happens through one-on-one and group approaches to tutoring of Sigma Beta Club members and after school and weekend tutoring by Alumni and Collegiate members in various academic and professional disciplines. Additionally, Sigma Beta Clubs develop partnerships with local institutions, inclusive of colleges and universities, community colleges and trade schools.</p>
+          </div>
+        <div>
+        <a role="button" class="tenant">
+          <span class="fa-stack fa-lg tenant-icon">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-plus fa-stack-1x"></i>
+          </span>
+          <span class="tenant-title">Social Action</span>
+        </a>
+        <div role="button" class="tenant">
+          <span class="fa-stack fa-lg tenant-icon">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-plus fa-stack-1x"></i>
+          </span>
+          <span class="tenant-title">Bigger and Better Business</span>
+        </div>
+        <div role="button" class="tenant">
+          <span class="fa-stack fa-lg tenant-icon">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-plus fa-stack-1x"></i>
+          </span>
+          <span class="tenant-title">Childhood Obesity & Health and Wellness</span>
+        </div>
+        <div role="button" class="tenant">
+          <span class="fa-stack fa-lg tenant-icon">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-plus fa-stack-1x"></i>
+          </span>
+          <span class="tenant-title">Special Programs and Projects</span>
+        </div>
+      </div>
 
-      <!-- FOOTER -->
+      <div class="col-lg-1">
 
+      </div>
 
-    </div><!-- /.container -->
-      
-      <footer>
-         <p>&copy; 2015 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
-      </footer>
-
-
+    </div><!--row-->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -126,4 +161,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+              <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2015 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
+  </footer>
 </html>

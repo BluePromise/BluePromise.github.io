@@ -1,0 +1,65 @@
+#sigma-beta-club {
+  color: #5a5a5a;
+  height: 2000px;
+}
+
+#sbc-about {
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 500px;
+}
+
+#sbc-about, .row {
+  height: 1500px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#sbc-about h2 {
+  color: #065c98;
+  text-align: center;
+}
+
+#sbc-about  .col-lg-1 {
+  margin: 0px;
+}
+
+#sbc-about .col-lg-5 {
+  margin: 0px;
+  padding-top: 20px;
+  color: black;
+}
+
+h3 {
+  float: left;
+  color: #065c98;
+}
+
+.tenant {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ECF0F1;
+}
+
+.tenant-text {
+  display: block;
+  visibility: hidden;
+  background-color: inherit;
+}
+
+a:hover > .tenant-text {
+  display: block;
+  visibility: visible;
+  background-color: inherit;
+}
+
+.tenant-icon {
+  float: left;
+}
+
+.tenant-title {
+  float: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 50px; 
+}
