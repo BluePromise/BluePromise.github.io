@@ -8,12 +8,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/blue-promise-favicon/blue-promise-favicon-16x16.png">
+    <link rel="icon" href="../images/blue-promise-favicon/blue-promise-favicon-16x16.png">
 
     <title>Sigma Beta Club | Blue Promise</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -26,11 +26,11 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-    <link href="sigma-beta-club.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/sigma-beta-club.css" rel="stylesheet">
 
     <!--Font Awesome-->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">    
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">    
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
   </head>
@@ -57,7 +57,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="../index.html">HOME</a></li>
                 <li><a href="phi-beta-sigma.html">Phi Beta Sigma</a></li>
                 <li class="active"><a href="#">Sigma Beta Club</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
@@ -76,7 +76,7 @@
     ================================================== -->
     <div id="large-image" class="jumbotron">
       <div class="container">
-        <img src="images/crescent-foundation.jpg">
+        <img src="../images/crescent-foundation.jpg">
       </div>
     </div>
     <!-- Marketing messaging and featurettes
@@ -102,7 +102,7 @@
       </div>
 
       <div class="col-lg-5">
-        <div role="button">
+        <div id="tenant-education" type="button" onclick="ShowEducation()">
           <div class="tenant">
             <span class="fa-stack fa-lg tenant-icon">
               <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -110,41 +110,81 @@
             </span>
             <span class="tenant-title">Education</span>
           </div>
-          <div class="tenant-text">
+          <div id="education-text" class="tenant-text">
             <p>Academic Enrichment & Mentoring</p>
             <p>Club members receive academic assistance and leadership development at the elementary, middle and high school levels. This happens through one-on-one and group approaches to tutoring of Sigma Beta Club members and after school and weekend tutoring by Alumni and Collegiate members in various academic and professional disciplines. Additionally, Sigma Beta Clubs develop partnerships with local institutions, inclusive of colleges and universities, community colleges and trade schools.</p>
           </div>
-        <div>
-        <a role="button" class="tenant">
-          <span class="fa-stack fa-lg tenant-icon">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-plus fa-stack-1x"></i>
-          </span>
-          <span class="tenant-title">Social Action</span>
-        </a>
-        <div role="button" class="tenant">
-          <span class="fa-stack fa-lg tenant-icon">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-plus fa-stack-1x"></i>
-          </span>
-          <span class="tenant-title">Bigger and Better Business</span>
         </div>
-        <div role="button" class="tenant">
-          <span class="fa-stack fa-lg tenant-icon">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-plus fa-stack-1x"></i>
-          </span>
-          <span class="tenant-title">Childhood Obesity & Health and Wellness</span>
+        <div id="tenant-social-action" type="button" onclick="ShowSocialAction()">
+          <div class="tenant">
+            <span class="fa-stack fa-lg tenant-icon">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-plus fa-stack-1x"></i>
+            </span>
+            <span class="tenant-title">Social Action</span>
+          </div>
+          <div id="social-action-text" class="tenant-text">
+            <p>Sigma Against Teenage Pregnancy Plus</p>
+            <p>The primary area of focus of the SATAPP Program is providing Sigma Beta Club members with tools they need to make smart choices about healthy lifestyles that will help lead to responsible fatherhood later in life.</p>
+          </div>
         </div>
-        <div role="button" class="tenant">
-          <span class="fa-stack fa-lg tenant-icon">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-plus fa-stack-1x"></i>
-          </span>
-          <span class="tenant-title">Special Programs and Projects</span>
+        <div id="tenant-bigger-and-better-business" type="button" onclick="ShowBiggerAndBetterBusiness()">
+          <div class="tenant">
+            <span class="fa-stack fa-lg tenant-icon">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-plus fa-stack-1x"></i>
+            </span>
+            <span class="tenant-title">Bigger and Better Business</span>
+          </div>
+          <div id="bigger-and-better-business-text" class="tenant-text">
+            <p>Job Training, Savings and Investment</p>
+            <p>Club members increase their awareness of business ownership as well as the importance of saving and investing at an early age. Club members also learn about various professions via internships, job shadowing, and other avenues to visit job sites.</p>
+          </div>
         </div>
-      </div>
-
+        <div id="tenant-childhood-obesity" type="button" onclick="ShowChildhoodObesity()">
+          <div class="tenant">
+            <span class="fa-stack fa-lg tenant-icon">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-plus fa-stack-1x"></i>
+            </span>
+            <span class="tenant-title">Childhood Obesity & Health and Wellness</span>
+          </div>
+          <div id="childhood-obesity-text" class="tenant-text">
+            <p>Childhood Obesity Initiative</p>
+            <p>The Sigma Beta Club Foundation’s Child Obesity Initiative focuses on the mind, body, and spirit. The primary objective is reducing weight and reversing the poor health of adolescents at an early age through the following principles:</p>
+            <ul>
+              <li>Stepping into shape</li>
+              <li>Eating healthy</li>
+              <li>Exercising daily</li>
+              <li>Knowing the obesity facts</li>
+              <li>Learning how to grow your own food</li>
+              <li>Self-esteem matters</li>
+              <li>Advocacy</li>
+            </ul>
+          </div>
+        </div>
+        <div id="tenant-special-programs" type="button" onclick="ShowSpecialPrograms()">
+          <div class="tenant">
+            <span class="fa-stack fa-lg tenant-icon">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-plus fa-stack-1x"></i>
+            </span>
+            <span class="tenant-title">Childhood Obesity & Health and Wellness</span>
+          </div>
+          <div id="special-programs-text" class="tenant-text">
+            <p>Community Service</p>
+            <p>Sigma Beta Club members are required to conduct a variety of community service projects. These may include but are not limited to serving the elderly, March of Dimes: March for Babies, Sickle Cell Centers, visiting children in hospitals, volunteering at their library, working with children with disabilities, cleaning up their neighborhood, etc.</p>
+            <p>Enrichment Programs</p>
+            <p>In addition to our organization-wide initiatives, local clubs also participate in a variety of enrichment programs that cover the following categories:</p>
+            <ul>
+              <li>Cultural: art shows, plays, concerts, museums</li>
+              <li>Social: parties, parent’s day, cook-outs, movies</li>
+              <li>Athletic: football, baseball, golf, basketball, bowling</li>
+            </ul>
+          </div>
+        </div>
+      </div
+>
       <div class="col-lg-1">
 
       </div>
@@ -154,12 +194,18 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!--Jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!--Javascript for Sigma Beta Club Page-->
+    <script language="javascript" type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script src="../js/sigma-beta-club.js"></script>
+    <script src="../js/toggle.js"></script>
+
   </body>
               <!-- FOOTER -->
   <footer>

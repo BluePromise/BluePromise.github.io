@@ -1,6 +1,6 @@
 #sigma-beta-club {
   color: #5a5a5a;
-  height: 2000px;
+  height: 1000px;
 }
 
 #sbc-about {
@@ -10,9 +10,9 @@
 }
 
 #sbc-about, .row {
-  height: 1500px;
   padding: 0px;
   margin: 0px;
+  height: 500px;
 }
 
 #sbc-about h2 {
@@ -41,15 +41,14 @@ h3 {
   border-bottom: 1px solid #ECF0F1;
 }
 
-.tenant-text {
-  display: block;
-  visibility: hidden;
-  background-color: inherit;
+.tenant-visible {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ECF0F1;
 }
 
-a:hover > .tenant-text {
-  display: block;
-  visibility: visible;
+#education-text #social-action-text #bigger-and-better-business-text #childhood-obesity-text #special-programs-text {
+  display: none;
   background-color: inherit;
 }
 
