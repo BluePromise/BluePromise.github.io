@@ -47,7 +47,7 @@ h3 {
   border-bottom: 1px solid #ECF0F1;
 }
 
-#education-text #social-action-text #bigger-and-better-business-text #childhood-obesity-text #special-programs-text {
+#education-text, #social-action-text, #bigger-and-better-business-text, #childhood-obesity-text, #special-programs-text {
   display: none;
   background-color: inherit;
 }
@@ -58,7 +58,7 @@ h3 {
 
 .tenant-title {
   float: left;
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   padding-left: 50px; 
 }
