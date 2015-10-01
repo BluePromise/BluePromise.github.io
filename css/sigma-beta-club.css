@@ -1,23 +1,25 @@
 #sigma-beta-club {
   color: #5a5a5a;
-  height: 1000px;
+  height: 1150px;
 }
 
 #sbc-about {
   padding-left: 100px;
   padding-right: 100px;
-  height: 500px;
+  height: 650px;
 }
 
 #sbc-about, .row {
   padding: 0px;
   margin: 0px;
-  height: 500px;
+  height: 650px;
 }
 
 #sbc-about h2 {
-  color: #065c98;
+  color: #07498b;
   text-align: center;
+  height: 70px;
+  padding-top: 18px;
 }
 
 #sbc-about  .col-lg-1 {
@@ -30,21 +32,35 @@
   color: black;
 }
 
-h3 {
-  float: left;
-  color: #065c98;
+ul {
+  padding-left: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#sbc-tenants {
+  padding-right: 85px;
+
+}
+
+.tenant-header {
+  background-color: #07498b;
+  height: 70px;
+  padding-top: 18px;
 }
 
 .tenant {
   float: left;
   width: 100%;
   border-bottom: 1px solid #ECF0F1;
+  margin-bottom: 10px; 
 }
 
-.tenant-visible {
-  float: left;
-  width: 100%;
-  border-bottom: 1px solid #ECF0F1;
+.tenant:hover{
+  color: #07498b;
+  cursor: pointer;
 }
 
 #education-text, #social-action-text, #bigger-and-better-business-text, #childhood-obesity-text, #special-programs-text {
@@ -60,5 +76,26 @@ h3 {
   float: left;
   font-size: 18px;
   text-transform: uppercase;
-  padding-left: 50px; 
+  padding-top: 7px;
+  padding-left: 15px;
+}
+
+#education-text {
+  height: 220px;
+}
+
+#social-action-text {
+  height: 200px;
+}
+
+#bigger-and-better-business-text {
+  height: 270px;
+}
+
+#childhood-obesity-text {
+  height: 460px;
+}
+
+#special-programs-text {
+  height: 450px;
 }

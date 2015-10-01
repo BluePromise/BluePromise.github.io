@@ -1,44 +1,64 @@
 function ShowEducation() {
     if (document.getElementById("education-text").style.display === "block") {
-    	document.getElementById("education-text").style.display = "none"; 
+        $("#education-text").slideUp("fast"); 
     }
     else {
-    	document.getElementById("education-text").style.display = "block";
+            $("#education-text").slideDown('fast');
+            $("#social-action-text").slideUp("fast");
+            $("#bigger-and-better-business-text").slideUp("fast"); 
+            $("#childhood-obesity-text").slideUp("fast");
+            $("#special-programs-text").slideUp("fast"); 
     }
 }
 
 function ShowSocialAction() {
     if (document.getElementById("social-action-text").style.display === "block") {
-    	document.getElementById("social-action-text").style.display = "none"; 
+    	$("#social-action-text").slideUp("fast"); 
     }
     else {
-    	document.getElementById("social-action-text").style.display = "block";
+            $("#social-action-text").slideDown('fast');
+            $("#education-text").slideUp("fast");
+            $("#bigger-and-better-business-text").slideUp("fast"); 
+            $("#childhood-obesity-text").slideUp("fast");
+            $("#special-programs-text").slideUp("fast");
     }
-}		
+}
 
 function ShowBiggerAndBetterBusiness() {
     if (document.getElementById("bigger-and-better-business-text").style.display === "block") {
-    	document.getElementById("bigger-and-better-business-text").style.display = "none"; 
+    	$("#bigger-and-better-business-text").slideUp("fast"); 
     }
     else {
-    	document.getElementById("bigger-and-better-business-text").style.display = "block";
+            $("#bigger-and-better-business-text").slideDown('fast');
+            $("#social-action-text").slideUp("fast");
+            $("#education-text").slideUp("fast"); 
+            $("#childhood-obesity-text").slideUp("fast");
+            $("#special-programs-text").slideUp("fast");
     }
 }
 
 function ShowChildhoodObesity() {
     if (document.getElementById("childhood-obesity-text").style.display === "block") {
-    	document.getElementById("childhood-obesity-text").style.display = "none"; 
+    	$("#childhood-obesity-text").slideUp("fast"); 
     }
     else {
-    	document.getElementById("childhood-obesity-text").style.display = "block";
+            $("#childhood-obesity-text").slideDown('fast');
+            $("#social-action-text").slideUp("fast");
+            $("#bigger-and-better-business-text").slideUp("fast"); 
+            $("#education-text").slideUp("fast");
+            $("#special-programs-text").slideUp("fast");
     }
-}	
+}
 
 function ShowSpecialPrograms() {
     if (document.getElementById("special-programs-text").style.display === "block") {
-    	document.getElementById("special-programs-text").style.display = "none"; 
+    	$("#special-programs-text").slideUp("fast"); 
     }
     else {
-    	document.getElementById("special-programs-text").style.display = "block";
+            $("#special-programs-text").slideDown('fast');
+            $("#social-action-text").slideUp("fast");
+            $("#bigger-and-better-business-text").slideUp("fast"); 
+            $("#childhood-obesity-text").slideUp("fast");
+            $("#education-text").slideUp("fast");
     }
-}	
+}
