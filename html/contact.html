@@ -27,6 +27,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet">
     
     <!--Font Awesome-->
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
@@ -36,7 +37,7 @@
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body>
+  <body id="contact">
     <div id="beta"><p>Website Under Construction, please bear with us as we improve functionality. Thank You.</p></div>
     <div class="navbar-wrapper">
       <div class="container">
@@ -76,25 +77,84 @@
     ================================================== -->
     <div id="large-image" class="jumbotron">
       <div class="container">
-        <h1>CONTACT US</h1>
-        <p>Please bear with us as we work to get all website features up an running at this time. Thank you.</p>
+        <img src="../images/crescent-foundation.jpg">
       </div>
     </div>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div id="contact" class="container">
-      <h1>Mailing Address</h1>
-      <h3>Blue Promise</h3>
-      <h3>7459 Penfield Ct.</h3>
-      <h3>Pittsburgh, PA 15208</h3>
+    <div class="container">
+      <form name="contactform" method="post" action="send_form_email.php">
+        <div id="submission" class="row">
+          
+          <div class="col-lg-1">
+          </div>
+          
+          <div class="col-lg-7">
+            
+            <div class="input-title row">
+              <h3>Full Name<span class="red">*</span></h3>
+            </div>          
+            <div id="firstname" class="row">
+              <div class="col-lg-6">
+                <input type="text" name="first_name" maxlength="50" size="30">
+                <p>First</p>
+              </div>
+              <div class="col-lg-6">
+                <input type="text" name="last_name" maxlength="50" size="30">
+                <p>Last</p>
+              </div>
+            </div>
 
-      <h1>Email</h1>
-      <h3>info@bluepromise1914.org</h3>
+            <div class="input-title row">
+              <h3>Email<span class="red">*</span></h3>
+            </div>          
+            <div id="email" class="row">
+              <div class="col-lg-6">
+                <input type="text" name="email" maxlength="80" size="30">
+                <p>Enter Email</p>
+              </div>
+              <div class="col-lg-6">
+                <input type="text" name="email" maxlength="80" size="30">
+                <p>Confirm Email</p>
+              </div>
+            </div>
+
+            <div class="input-title row">
+              <h3>Phone Number</h3>
+            </div>
+            <div id="phonenumber" class="row">
+              <div class="col-lg-6">
+                <input type="text" name="telephone" maxlength="30" size="30">
+              </div>
+            </div>
+
+            <div class="input-title row">
+              <h3>Questions or Comments</h3>
+            </div>
+            <div id="questions" class="row">
+                <input type="text" maxlength="1000" cols="25" rows="6">
+            </div>
+            <div class="input-title row">
+              <input id="submit" type="submit" value="Submit">
+            </div>
+
+          </div>
+
+          <div class="col-lg-3">
+          </div>
+
+          <div class="col-lg-1">
+          </div>
+
+        </div><!--row-->
+
+      </form>
+        
     </div><!-- /.container -->
        <!-- FOOTER -->
-    <footer>
+    <footer id="footer">
       <p>&copy; 2015 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
     </footer>
 

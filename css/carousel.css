@@ -283,48 +283,49 @@ body {
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
+#background {
+  background-image: url("../images/pittsburgh.jpg");
+  height: 800px;
+}
 
 #marketing {
   height: 800px;
-  background-color: #8F8F8F;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
-  background-image: url("images/Pittsburgh.jpg");
 }
 
 #main-content {
-  height: 500px;
+  height: 700px;
+  width: 100%;
 }
 
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
+.col-lg-4 {
+  margin-top: 15px;
+  height: 100%;
   text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+  padding-top: 10px;
+  color: white;
 }
 
-/* Featurettes
-------------------------- */
-
-/* Thin out the marketing headings */
-#featurette {
-  height: 300px;
+#main-content h2 {
+  color: #065c98;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.featurette-heading {
+.col-lg-4 > p {
+  font-size: 21px;
   font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+  padding: 20px;
+  height: 200px;
+
 }
 
+#pbs {
+  padding-left: 20px;
+}
 #content {
   height: 50%;
   width: 100%;
@@ -332,16 +333,6 @@ body {
 
 .row {
   height: 100%;
-}
-
-.col-lg-4 {
-  height: 100%;
-  text-align: center;
-  padding-top: 10px;
-  color: white;
-}
-.col-md-7 {
-  height: 100%; 
 }
 
 #donate-content, .row {
@@ -367,18 +358,6 @@ body {
 }
 
 /*******individual page stylings***********/
-/*Phi Beta Sigma*/
-#pbs-about {
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 500px;
-}
-
-#pbs-about > h3 {
-  color: #065c98;
-  text-align: center;
-}
-
 /*Adopt-A-Highway*/
 #adopt-a-highway-content h3 {
   color: #065c98;
@@ -407,22 +386,17 @@ body {
 }
 /*Footer
 --------------------------------------------------*/
-#homepage > footer {
+#footer {
   background-color: #07498b;
   height: 30px;
   width: 100%;
 }
 
-footer {
-  background-color: #07498b;
-  height: 30px;
-  width: 100%;
-}
-
-footer p {
+#footer p {
   margin: 0%;
   color: #C0C0C0;
   text-align: center;
+  font-weight: normal;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */

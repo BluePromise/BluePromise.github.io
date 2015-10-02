@@ -1,0 +1,46 @@
+#contact {
+	width: 100%;
+	height: 1100px;
+}
+
+#submission {
+	height: 600px;
+}
+
+.col-lg-7 {
+	text-align: left;
+}
+
+.col-lg-6 {
+	padding: 0px;
+}
+
+.input-title > h3 {
+	color: #07498b;
+}
+
+.red {
+	color: red;
+}
+
+#contact input {
+	background-color: #f3f3f3;
+	width: 300px;
+}
+
+#questions input {
+	height: 150px;
+	width: 750px;
+}
+
+p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#contact #submit {
+	width: 100px;
+    margin-top: 30px;
+    height: 40px;
+    font-weight: bold;
+}
