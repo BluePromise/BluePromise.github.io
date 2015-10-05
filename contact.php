@@ -60,7 +60,7 @@ if(isset($_POST['email'])) {
  
     $last_name = $_POST['last_name']; // required
  
-    $email_from = $_POST['email']; // required
+    $email_from = "info@bluepromise1914.org"; // required
  
     $telephone = $_POST['telephone']; // not required
  
