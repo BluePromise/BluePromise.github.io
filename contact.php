@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "Zazu1914@gmail.com";
  
-    $email_subject = "A Contact for Blue Promise";
+    $email_subject = "A Contact Form from Blue Promise";
  
      
  
@@ -32,6 +32,12 @@ if(isset($_POST['email'])) {
  
      
  
+    //Confirm email address
+
+    if ($_POST['email'] !== $_POST['email-confirm']) {
+      $error_message .= 'The Email Addresses you entered do not match.<br />';
+    }
+
     // validation expected data exists
  
     if(!isset($_POST['first_name']) ||
