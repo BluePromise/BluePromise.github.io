@@ -1,3 +1,14 @@
+#donate {
+	height: 1000px;
+}
+
 #paypal {
 	width: 300px;
+	padding-top: 20px;
 }
+
+.col-lg-8 p {
+	font-size: 18px;
+	color: #07498b;
+}
+
