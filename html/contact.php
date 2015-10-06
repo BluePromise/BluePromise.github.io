@@ -85,7 +85,7 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container">
-      <form>
+      <form name="contactform" method="post" action="../contact.php">
         <div id="submission" class="row">
           
           <div class="col-lg-1">
