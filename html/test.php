@@ -1,8 +1,9 @@
-<?php  
-  header("Location:form.php");
+<?php 
+	if(isset($_POST['submit'])){
 
-  echo '<script language="javascript">';
-  echo 'alert("Test Passed")';
-  echo '</script>';
-  exit;
+  		echo '<script language="javascript">';
+  		echo 'alert("Test Passed")';
+  		echo '</script>';
+  		exit;
+  	}
 ?>
