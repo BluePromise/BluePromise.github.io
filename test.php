@@ -9,7 +9,7 @@
   <body>       
     <p>Today&rsquo;s date (according to this web server) is       
       <?php       
-       
+      $link = mysqli_connect('localhost', 'root', 'password');
       echo date('l, F dS Y.');       
        
       ?>       
