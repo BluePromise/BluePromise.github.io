@@ -1,12 +1,16 @@
 #phi-beta-sigma {
   color: #5a5a5a;
-  height: 1000px;
+  height: 1140px;
 }
 
 #pbs-about {
   padding-left: 100px;
   padding-right: 100px;
   height: 650px;
+}
+
+#phi-beta-sigma > #pbs-about {
+  margin: 0px;
 }
 
 h2 {

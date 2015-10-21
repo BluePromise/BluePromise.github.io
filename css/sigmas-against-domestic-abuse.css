@@ -1,6 +1,10 @@
 #SADA {
 	color: #5a5a5a;
-	height: 1300px;
+	height: 980px;
+}
+
+div#SADA-about.row{
+	margin: 0px;
 }
 
 h2 {

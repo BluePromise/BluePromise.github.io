@@ -4,7 +4,7 @@
 
 #homepage {
   color: #5a5a5a;
-  height: 1300px;
+  height: 1290px;
 }
 
 body {
@@ -390,6 +390,7 @@ body {
   background-color: #07498b;
   height: 30px;
   width: 100%;
+
 }
 
 #footer p {
@@ -397,6 +398,7 @@ body {
   color: #C0C0C0;
   text-align: center;
   font-weight: normal;
+  display: block;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
