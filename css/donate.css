@@ -4,14 +4,31 @@
 
 #paypal {
 	width: 300px;
-	padding-top: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 80px;
 }
 
-.col-lg-8 p {
+p {
 	font-size: 18px;
 	color: #07498b;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
 }
 
-div#donate-content.row {
-	margin: 0px;
+#donate-content, .row {
+	margin: 50px;
+	margin-bottom: 0px;
+	height: 250px;
+	text-align: center;
+	overflow: scroll;
+}
+
+#content, .container {
+	text-align: center;
+}
+
+footer {
+	position: absolute;
 }

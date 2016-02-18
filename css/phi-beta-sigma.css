@@ -6,11 +6,20 @@
 #pbs-about {
   padding-left: 100px;
   padding-right: 100px;
-  height: 650px;
+  height: 850px;
+  overflow: scroll;
 }
 
 #phi-beta-sigma > #pbs-about {
   margin: 0px;
+}
+
+#pbs-history{
+  padding-left: 5%
+}
+
+#pbs-pittsburgh{
+  padding-right: 5%;
 }
 
 h2 {
@@ -21,4 +30,9 @@ h2 {
 
 li {
 	text-align: center;
+}
+
+p {
+  color: black;
+  text-align: center;
 }

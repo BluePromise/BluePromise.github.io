@@ -13,6 +13,7 @@
   padding: 0px;
   margin: 0px;
   height: 650px;
+  overflow: scroll;
 }
 
 #sbc-about h2 {
@@ -22,15 +23,20 @@
   padding-top: 18px;
 }
 
-#sbc-about  .col-lg-1 {
-  margin: 0px;
+p {
+  color: black;
+  text-align: center;
+  font-size: 17px;
 }
 
-#sbc-about .col-lg-5 {
-  margin: 0px;
+
+#sbc-about .col-lg-6 {
   padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
   color: black;
 }
+
 
 ul {
   padding-left: 20px;
