@@ -79,13 +79,13 @@ p {
 
 .navbar-nav {
   height: 100%;
-  width: 71%
+  width: 72%
 }
 
 .navbar-header{
   padding-left: 15px;
   height: 100%;
-  width: 29%;
+  width: 28%;
 }
 
 
@@ -102,14 +102,43 @@ p {
   text-align: center;
   color: white;
   font-family: 'Asset', cursive;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .navbar-nav > li {
   height: 100%;
+  width: 12%
+}
+
+.navbar-nav > #home-tab {
+  height: 100%;
+  width: 10%
+}
+
+.navbar-nav > #phi-beta-sigma-tab {
+  height: 100%;
+  width: 17%
+}
+
+.navbar-nav > #bigger-and-better-business-tab {
+  height: 100%;
   width: 20%
 }
 
+.navbar-nav > #education-tab {
+  height: 100%;
+  width: 12%
+}
+
+.navbar-nav > #social-action-tab {
+  height: 100%;
+  width: 15%
+}
+
+.navbar-nav > #donate-tab {
+  height: 100%;
+  width: 10%
+}
 .nav > li > a {
   border-left: 1px solid rgba(0,0,0,0.2); /*Thin Vertical Separator*/
   padding-left: 10px;
@@ -430,6 +459,95 @@ li:hover ul{
 
 
 @media (max-width: 767px) {
+  #logo {
+    padding-top: 7%;
+  }
+
+  #logo > .navbar-brand {
+    padding: 0px;
+    float: none;
+    font-size: -webkit-xxx-large;
+  }
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color: white;
+    margin-top: 5%
+  }
+  
+  .navbar-nav{
+    margin: 0px;
+  }
+
+  .navbar ul ul {
+    visibility: visible;
+    padding: 0px;
+  }
+
+  .navbar-nav > li  {
+    height: 10%;
+    width: 100%;
+    padding-left: 20%;
+  }
+  
+  .navbar-nav .dropdown {
+    height: 40%;
+  }
+
+  .navbar #submenu-about a, .navbar #submenu-projects a {
+  visibility: visible;
+  padding: 0px;
+  display: block;
+  background-color: inherit;
+  color: white;
+}
+
+  .navbar ul #submenu-about {
+    height: 75%;
+  }
+
+  #submenu-about > li  {
+    height: 33%;
+    width: 100%;
+    padding-left: 20%;
+  }
+
+  #submenu-projects > li {
+    padding-left: 40%;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 0px;
+    border-left: none;
+  }
+
+  .navbar-inverse .navbar-nav > .dropdown > a, .navbar-inverse .navbar-nav > .dropdown > a:hover, .navbar-inverse .navbar-nav > .dropdown > a:focus {
+    padding: 0px;
+    border-left: none;
+    height: 25%;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    padding: 0px;
+    border-left: none;
+  }
+
+/*Main Content*/
+  .col-lg-4 {
+    height: 33.33333333%;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+/******************************Phone Portrait**********************/
+@media (max-width: 320px) {
   #logo {
     padding-top: 7%;
   }
