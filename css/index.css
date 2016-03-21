@@ -1,11 +1,10 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
 #homepage {
-  color: #5a5a5a;
-  height: 800px;
-}
+    color: #5a5a5a;
+    height: 800px;
+  }
 
 body {
   height: 400px;
@@ -30,10 +29,6 @@ p {
   color: white;
 }
 
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   top: 0;
   right: 0;
@@ -68,7 +63,7 @@ p {
   height: 100%;
 }
 
-.navbar-wrapper .navbar {
+  .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
   border: 0;
@@ -88,7 +83,6 @@ p {
   width: 28%;
 }
 
-
 #logo {
   width: 100%;
   padding-left: 5%;
@@ -105,11 +99,6 @@ p {
   font-size: 20px;
 }
 
-.navbar-nav > li {
-  height: 100%;
-  width: 12%
-}
-
 .navbar-nav > #home-tab {
   height: 100%;
   width: 10%
@@ -117,12 +106,12 @@ p {
 
 .navbar-nav > #phi-beta-sigma-tab {
   height: 100%;
-  width: 17%
+  width: 19%
 }
 
 .navbar-nav > #bigger-and-better-business-tab {
   height: 100%;
-  width: 20%
+  width: 30%
 }
 
 .navbar-nav > #education-tab {
@@ -132,12 +121,12 @@ p {
 
 .navbar-nav > #social-action-tab {
   height: 100%;
-  width: 15%
+  width: 17%
 }
 
 .navbar-nav > #donate-tab {
   height: 100%;
-  width: 10%
+  width: 8%
 }
 .nav > li > a {
   border-left: 1px solid rgba(0,0,0,0.2); /*Thin Vertical Separator*/
@@ -146,7 +135,7 @@ p {
   width: 100%;
 }
 
-.submenu-item > a {
+.drop-down a {
   border-top: 1px solid rgba(0,0,0,0.2); /*Thin Horizontal Separator*/
   padding-top: 5px;
   padding-bottom: 5px;
@@ -175,20 +164,9 @@ p {
   width: 100%;
 }
 
-.navbar #submenu-about, .navbar #submenu-projects {
-  visibility: hidden;
-  padding: 0px;
-}
-
-.navbar #submenu-about {
-  height: 90px;
-}
-
 #submenu-about > li {
   height: 33%
 }
-
-
 
 .navbar #submenu-projects {
   height: 75px;
@@ -205,7 +183,7 @@ p {
 .navbar ul li:hover > ul a {
   display: block;
   visibility: visible;
-  background-color: inherit;
+  background-color: #07498b;
   color: white;
   height: 40%;
 }
@@ -223,18 +201,28 @@ p {
   margin: 0px;
 }
 
-ul ul {
+.submenu > .submenu-item {
   text-align: center;
   width: 100%;
   background-color: #07498b;
   position: absolute;
   display: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-li:hover ul{
+.submenu:hover .submenu-item{
   display: block;
   text-align: center;
+  background-color: #07498b;
 }
+
+.navbar-inverse .navbar-nav > li > a:hover{
+  display: block;
+  text-align: center;
+  background-color: #07498b;
+}
+
 /*************Page Backgrounds*****************/
 #adopt-a-highway-content {
   height: 900px;
@@ -454,97 +442,18 @@ li:hover ul{
   font-weight: normal;
   display: block;
 }
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
-
-@media (max-width: 767px) {
-  #logo {
-    padding-top: 7%;
-  }
-
-  #logo > .navbar-brand {
-    padding: 0px;
-    float: none;
-    font-size: -webkit-xxx-large;
-  }
-
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .navbar-inverse .navbar-toggle {
-    border-color: white;
-    margin-top: 5%
-  }
-  
-  .navbar-nav{
-    margin: 0px;
-  }
-
-  .navbar ul ul {
-    visibility: visible;
-    padding: 0px;
-  }
-
-  .navbar-nav > li  {
-    height: 10%;
-    width: 100%;
-    padding-left: 20%;
-  }
-  
-  .navbar-nav .dropdown {
-    height: 40%;
-  }
-
-  .navbar #submenu-about a, .navbar #submenu-projects a {
-  visibility: visible;
-  padding: 0px;
-  display: block;
-  background-color: inherit;
-  color: white;
-}
-
-  .navbar ul #submenu-about {
-    height: 75%;
-  }
-
-  #submenu-about > li  {
-    height: 33%;
-    width: 100%;
-    padding-left: 20%;
-  }
-
-  #submenu-projects > li {
-    padding-left: 40%;
-  }
-  
-  .navbar-inverse .navbar-nav > li > a {
-    padding: 0px;
-    border-left: none;
-  }
-
-  .navbar-inverse .navbar-nav > .dropdown > a, .navbar-inverse .navbar-nav > .dropdown > a:hover, .navbar-inverse .navbar-nav > .dropdown > a:focus {
-    padding: 0px;
-    border-left: none;
-    height: 25%;
-  }
-
-  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    padding: 0px;
-    border-left: none;
-  }
+@media (min-width: 767px) and (max-width: 999px){
 
 /*Main Content*/
-  .col-lg-4 {
-    height: 33.33333333%;
-    width: 100%;
-    text-align: center;
-  }
-
+.col-lg-4 {
+  height: 33.33333333%;
+  width: 100%;
+  text-align: center;
 }
+
 
 /******************************Phone Portrait**********************/
 @media (max-width: 320px) {
