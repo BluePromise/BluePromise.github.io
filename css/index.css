@@ -146,7 +146,6 @@ p {
   width: 100%;
 }
 
-
 .navbar #submenu-about, .navbar #submenu-projects {
   visibility: hidden;
   padding: 0px;
@@ -193,6 +192,19 @@ p {
   background-color: #07498b;
   width: 100%;
   margin: 0px;
+}
+
+ul ul {
+  text-align: center;
+  width: 100%;
+  background-color: #07498b;
+  position: absolute;
+  display: none;
+}
+
+li:hover ul{
+  display: block;
+  text-align: center;
 }
 /*************Page Backgrounds*****************/
 #adopt-a-highway-content {
