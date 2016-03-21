@@ -416,8 +416,6 @@ p {
   height: 400px;
 }
 
-
-
 #contact {
     text-align: center;
     height: 500px;
@@ -442,7 +440,7 @@ p {
   font-weight: normal;
   display: block;
 }
-}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 767px) and (max-width: 999px){
@@ -452,6 +450,7 @@ p {
   height: 33.33333333%;
   width: 100%;
   text-align: center;
+  }
 }
 
 
@@ -542,6 +541,37 @@ p {
     text-align: center;
   }
 
+}
+
+@media (min-width: 300px) and (max-width: 479px){
+  .container > .navbar {
+    width: 100%;
+    padding: 0px;
+  }
+
+  div .navbar-header {
+    margin: 0px;
+  }
+
+  div > .navbar-toggle {
+    width: 45px;
+  }
+
+  .container > .navbar-header {
+    margin: 0px;
+    width: 100%;
+  }
+  #logo > .navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    width: 200px;
+  }
+  .col-lg-4 > p {
+    font-size: 18px;
+  }
+  .btn-primary {
+    margin-top: 20px;
+  }
 }
 /******************* Future phone navbar update*********************/
 .navbar-phone {
