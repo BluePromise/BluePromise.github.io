@@ -29,59 +29,6 @@ p {
   color: white;
 }
 
-.navbar-wrapper {
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 6%;
-}
-
-#navbar {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-}
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-  /*Changes Below Stretch the Navbar across the whole screen*/
-  margin-right: 0;
-  margin-left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.navbar {
-  background-color: #07498b;
-  margin-bottom: 0px;
-  height: 100%  
-}
-
-.navbar > .container {
-  height: 100%;
-}
-
-  .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-  border: 0;
-}
-.navbar-wrapper .navbar .container {
-  width: 100%;
-}
-
-.navbar-nav {
-  height: 100%;
-  width: 72%
-}
-
-.navbar-header{
-  padding-left: 15px;
-  height: 100%;
-  width: 28%;
-}
 
 #logo {
   width: 100%;
@@ -97,6 +44,111 @@ p {
   color: white;
   font-family: 'Asset', cursive;
   font-size: 20px;
+}
+
+.nav > li > a {
+  border-left: 1px solid rgba(0,0,0,0.2); /*Thin Vertical Separator*/
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+  /*Changes Below Stretch the Navbar across the whole screen*/
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 6%;
+}
+
+.navbar-header{
+  padding-left: 15px;
+  height: 100%;
+  width: 28%;
+}
+
+#navbar {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.navbar-wrapper .navbar .container {
+  width: 100%;
+}
+
+.navbar > .container {
+  height: 100%;
+}
+
+.navbar-wrapper .navbar {
+  border: 0;
+}
+
+.navbar {
+  background-color: #07498b;
+  margin-bottom: 0px;
+  height: 100%  
+}
+
+#navbar ul li:hover > ul a {
+  display: block;
+  visibility: visible;
+  background-color: #07498b;
+  color: white;
+  height: 40%;
+}
+
+.submenu:hover .submenu-item{
+  display: block;
+  text-align: center;
+  background-color: #07498b;
+}
+
+.submenu > .submenu-item {
+  text-align: center;
+  width: 100%;
+  background-color: #07498b;
+  position: absolute;
+  display: none;
+  padding: 0px;
+  list-style-type: none;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  height: 100%;
+  text-align: center;
+  background-color: #07498b;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.navbar ul ul li div {
+  text-align: center;
+  width: 100%;
+  background-color: #07498b;
+}
+
+.navbar-collapse{
+  background-color: #07498b;
+  width: 100%;
+  margin: 0px;
 }
 
 .navbar-nav > #home-tab {
@@ -128,41 +180,6 @@ p {
   height: 100%;
   width: 8%
 }
-.nav > li > a {
-  border-left: 1px solid rgba(0,0,0,0.2); /*Thin Vertical Separator*/
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 100%;
-}
-
-.drop-down a {
-  border-top: 1px solid rgba(0,0,0,0.2); /*Thin Horizontal Separator*/
-  padding-top: 5px;
-  padding-bottom: 5px;
-  height: 100%;
-}
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  height: 100%;
-  text-align: center;
-  background-color: inherit;
-  width: 100%;
-  border-bottom: 1px solid white;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-  height: 100%;
-  text-align: center;
-  width: 100%;
-  color: white;
-}
-
-.navbar-inverse .navbar-nav > .dropdown > a, .navbar-inverse .navbar-nav > .dropdown > a:hover, .navbar-inverse .navbar-nav > .dropdown > a:focus {
-  height: 100%;
-  text-align: center;
-  background-color: inherit;
-  width: 100%;
-}
 
 #submenu-about > li {
   height: 33%
@@ -178,49 +195,6 @@ p {
 
 #submenu-item > li {
   height: 33%
-}
-
-.navbar ul li:hover > ul a {
-  display: block;
-  visibility: visible;
-  background-color: #07498b;
-  color: white;
-  height: 40%;
-}
-
-.navbar ul ul li div {
-  text-align: center;
-  width: 100%;
-  background-color: #07498b;
-}
-
-
-.navbar-collapse{
-  background-color: #07498b;
-  width: 100%;
-  margin: 0px;
-}
-
-.submenu > .submenu-item {
-  text-align: center;
-  width: 100%;
-  background-color: #07498b;
-  position: absolute;
-  display: none;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.submenu:hover .submenu-item{
-  display: block;
-  text-align: center;
-  background-color: #07498b;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover{
-  display: block;
-  text-align: center;
-  background-color: #07498b;
 }
 
 .page-content {
@@ -335,13 +309,15 @@ p {
 #main-content {
   height: 95%;
   width: 100%;
+  margin: 0px;
 }
 
 .col-lg-4 {
-  margin-top: 15px;
   height: 100%;
+  width: 30%;
+  display: inline-block;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5px;
   color: white;
 }
 
