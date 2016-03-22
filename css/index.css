@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 #homepage {
     color: #5a5a5a;
-    height: 800px;
+    height: 1000px;
   }
 
 body {
@@ -33,7 +33,7 @@ p {
   top: 0;
   right: 0;
   left: 0;
-  height: 60px;
+  height: 6%;
 }
 
 #navbar {
@@ -223,6 +223,9 @@ p {
   background-color: #07498b;
 }
 
+.page-content {
+  height: 94%;
+}
 /*************Page Backgrounds*****************/
 #adopt-a-highway-content {
   height: 900px;
@@ -257,12 +260,13 @@ p {
   height: 100%;
   width: 100%
 }
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  height: 400px;
+  height: 40%;
 }
 /*Adjust height of all the divs that make up the carousel into %s */
 .carousel-inner {
@@ -317,28 +321,19 @@ p {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 #homeMarketing {
-  height: 468px;
+  height: 55%;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
   background-image: url("../images/pittsburgh.jpg");
-  overflow: scroll;
 }
 
 #homeMarketing > #main-content {
-  height: 425px;
-  width: 100%;
-}
-
-#marketing {
-  height: 800px;
-  margin-left: 0px;
-  margin-right: 0px;
   width: 100%;
 }
 
 #main-content {
-  height: 700px;
+  height: 95%;
   width: 100%;
 }
 
@@ -358,11 +353,10 @@ p {
 }
 
 .col-lg-4 > p {
+  height: 30%;
   font-size: 21px;
   font-weight: 300;
   padding: 20px;
-  height: 150px;
-
 }
 
 #pbs {
@@ -428,7 +422,7 @@ p {
 --------------------------------------------------*/
 #footer {
   background-color: #07498b;
-  height: 30px;
+  height: 5%;
   width: 100%;
 
 }
@@ -444,103 +438,25 @@ p {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 767px) and (max-width: 999px){
-
-/*Main Content*/
-.col-lg-4 {
-  height: 33.33333333%;
-  width: 100%;
-  text-align: center;
-  }
-}
-
-
-/******************************Phone Portrait**********************/
-@media (max-width: 320px) {
-  #logo {
-    padding-top: 7%;
-  }
-
-  #logo > .navbar-brand {
-    padding: 0px;
-    float: none;
-    font-size: -webkit-xxx-large;
-  }
-
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .navbar-inverse .navbar-toggle {
-    border-color: white;
-    margin-top: 5%
-  }
-  
-  .navbar-nav{
+  .row {
     margin: 0px;
   }
 
-  .navbar ul ul {
-    visibility: visible;
-    padding: 0px;
-  }
-
-  .navbar-nav > li  {
-    height: 10%;
-    width: 100%;
-    padding-left: 20%;
-  }
-  
-  .navbar-nav .dropdown {
-    height: 40%;
-  }
-
-  .navbar #submenu-about a, .navbar #submenu-projects a {
-  visibility: visible;
-  padding: 0px;
-  display: block;
-  background-color: inherit;
-  color: white;
-}
-
-  .navbar ul #submenu-about {
-    height: 75%;
-  }
-
-  #submenu-about > li  {
-    height: 33%;
-    width: 100%;
-    padding-left: 20%;
-  }
-
-  #submenu-projects > li {
-    padding-left: 40%;
-  }
-  
-  .navbar-inverse .navbar-nav > li > a {
-    padding: 0px;
-    border-left: none;
-  }
-
-  .navbar-inverse .navbar-nav > .dropdown > a, .navbar-inverse .navbar-nav > .dropdown > a:hover, .navbar-inverse .navbar-nav > .dropdown > a:focus {
-    padding: 0px;
-    border-left: none;
-    height: 25%;
-  }
-
-  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    padding: 0px;
-    border-left: none;
-  }
-
-/*Main Content*/
-  .col-lg-4 {
-    height: 33.33333333%;
-    width: 100%;
+  .col-lg-4{
+    width: 33%;
     text-align: center;
+    padding : 0px;
+    display: inline-block;
+    }
+
+  #pbs, #support, #sbc {
+    padding: 0px;
+    margin: 0px;
   }
 
+  .col-lg-4 > p{
+    font-size: 12px;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 479px){
