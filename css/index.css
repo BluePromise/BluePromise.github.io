@@ -1,14 +1,15 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+body {
+  width: 100%;
+}
+
 #homepage {
     color: #5a5a5a;
-    height: 1000px;
+    height: 1100px;
+    width: 1040px;
   }
-
-body {
-  height: 400px;
-}
 
 .container{
   padding: 0px;
@@ -43,7 +44,7 @@ p {
   text-align: center;
   color: white;
   font-family: 'Asset', cursive;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .nav > li > a {
@@ -271,7 +272,7 @@ p {
 
 #large-image {
   background-color: #AAAAC1;
-  height: 400px;
+  height: 40%;
   width: 100%;
   margin-bottom: 0px;
   padding: 0px;
@@ -299,6 +300,7 @@ p {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
+  padding-top: 10px;
   background-image: url("../images/pittsburgh.jpg");
 }
 

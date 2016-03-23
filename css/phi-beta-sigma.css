@@ -1,31 +1,34 @@
 #phi-beta-sigma {
   color: #5a5a5a;
-  height: 1140px;
+  height: 1100px;
+  width: 1040px;
 }
 
 #pbs-about {
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 850px;
-  overflow: scroll;
-}
-
-#phi-beta-sigma > #pbs-about {
-  margin: 0px;
+  padding: 0px;
+  height: 55%;
 }
 
 #pbs-history{
-  padding-left: 5%
+  height: 100%;
+  width: 40%;
+  padding: 5px;
+  display: inline-block;
 }
 
 #pbs-pittsburgh{
-  padding-right: 5%;
+  height: 100%;
+  width: 40%;
+  padding: 5px;
+  display: inline-block;
+  top: auto;
 }
 
 h2 {
   color: #065c98;
   text-align: center;
   text-transform: uppercase;
+  font-size: 25px;
 }
 
 li {
@@ -35,4 +38,5 @@ li {
 p {
   color: black;
   text-align: center;
+  font-size: 12px;
 }

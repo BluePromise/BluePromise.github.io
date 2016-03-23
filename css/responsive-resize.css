@@ -1,6 +1,6 @@
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (min-width: 767px) and (max-width: 999px){
+@media (min-width: 767px){
   .row {
     margin: 0px;
   }
@@ -54,6 +54,7 @@
     padding-top: 5px;
     padding-bottom: 0px;
     width: 200px;
+    font-size: 20px;
   }
   .col-lg-4 > p {
     font-size: 18px;
@@ -136,6 +137,9 @@
   #pbs, #support, #sbc {
     padding: 0px;
     margin: 0px;
+  }
+  #pbs {
+    padding-left: 3px;
   }
   
   .col-lg-4 {

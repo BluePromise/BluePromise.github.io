@@ -12,8 +12,7 @@
 #sbc-about, .row {
   padding: 0px;
   margin: 0px;
-  height: 650px;
-  overflow: scroll;
+  height: 55%;
 }
 
 #sbc-about h2 {
@@ -26,15 +25,16 @@
 p {
   color: black;
   text-align: center;
-  font-size: 17px;
+  font-size: 12px;
 }
 
 
 #sbc-about .col-lg-6 {
-  padding-top: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
+  height: 100%;
+  width: 45%;
+  padding: 0px;
   color: black;
+  display: inline-block;
 }
 
 
@@ -47,8 +47,10 @@ ul {
 }
 
 #sbc-tenants {
+  height: 100%;
+  width: 45%;
   padding-right: 85px;
-
+  display: inline-block;
 }
 
 .tenant-header {

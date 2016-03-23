@@ -28,6 +28,7 @@
     <!-- Custom styles for this template -->
     <link href="../css/index.css" rel="stylesheet">
     <link href="../css/phi-beta-sigma.css" rel="stylesheet">
+    <link href="../css/responsive-resize.css" rel="stylesheet">
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
@@ -40,6 +41,7 @@
   <body id="phi-beta-sigma">
     <div class="navbar-wrapper">
       <div class="container">
+
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
@@ -53,99 +55,104 @@
               <div id="logo">
                 <a class="navbar-brand" href="#">BLUE PROMISE</a>
               </div>
-            </div>    
+            </div><!--navbar-header-->
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li id="home-tab"><a href="../index.html">HOME</a></li>
-                <li class="active" id="phi-beta-sigma-tab"><a href="#">Phi Beta Sigma</a></li>
-                <li id ="bigger-and-better-business-tab"><a href="#">Bigger And Better Business
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="project-seed.html">Project Seed</a></li>
+                <li id="home-tab">
+                  <a href="../index.html">HOME</a>
+                </li>
+                <li class="active" id="phi-beta-sigma-tab">
+                  <a href="#">PHI BETA SIGMA</a>
+                </li>
+                <li id="bigger-and-better-business-tab" class=submenu>
+                  <a href="#">BIGGER AND BETTER BUSINESS</a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="project-seed.html">Project Seed</a>
+                    </li>
                   </ul>
                 </li>
-                <li id="education-tab"><a href="#">Education
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="sigma-beta-club.html">Sigma Beta Club</a></li>
+                <li id="education-tab" class=submenu>
+                  <a href="#">EDUCATION</a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="sigma-beta-club.html" class=submenu-item>Sigma Beta Club</a>
+                    </li>
                   </ul>
                 </li>
-                <li id="social-action-tab"><a href="#">Social Action
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="#">March Of Dimes</a></li>
+                <li id="social-action-tab" class=submenu>
+                  <a href="#">SOCIAL ACTION</a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="march-of-dimes.html" class=submenu-item>March Of Dimes</a>
+                    </li>
                   </ul>
                 </li>
-                <li id=donate-tab><a href="donate.html">DONATE</a></li>
+                <li id="donate-tab"><a href="donate.html">DONATE</a></li>
               </ul>
             </div>
-          </div>
+          </div><!--container-->
         </nav>
       </div>
     </div>
 
-
-    <!-- jumbotron
-    ================================================== -->
-    <div id="large-image" class="jumbotron">
-      <div class="container">
-        <img src="../images/alpha-chapter.jpg">
-      </div>
-    </div>
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div id="pbs-about" class="row">
-      
-      <div id="pbs-history" class="col-lg-6">
-        <h2>A Brief History of Phi Beta Sigma Fraternity, Inc.</h2>
-        
-        <p>Phi Beta Sigma Fraternity was founded at Howard University in Washington, D.C., January 9, 1914, by three young African-American male students. The Founders, Honorable A. Langston Taylor, Honorable Leonard F. Morse, and Honorable Charles I. Brown, wanted to organize a Greek letter fraternity that would truly exemplify the ideals of brotherhood, scholarship, and service.</p>
-
-        <p>The Founders deeply wished to create an organization that viewed itself as “a part of” the general community rather than “apart from” the general community. They believed that each potential member should be judged by his own merits, rather than his family background or affluence…without regard to race, nationality, skin tone or texture of hair. They desired for their fraternity to exist as part of an even greater brotherhood which would be devoted to the “inclusive we” rather than the “exclusive we”.</p>
-
-        <p>From its inception, the Founders also conceived Phi Beta Sigma as a mechanism to deliver services to the general community. Rather than gaining skills to be utilized exclusively for themselves and their immediate families, they held a deep conviction that they should return their newly acquired skills to the communities from which they had come. This deep conviction was mirrored in the Fraternity’s motto, “Culture For Service and Service For Humanity”.</p>
-
-        <p>Today, Phi Beta Sigma has blossomed into an international organization of leaders. No longer a single entity, members of the Fraternity have been instrumental in the establishment of the Phi Beta Sigma National Foundation, the Phi Beta Sigma Federal Credit Union and The Sigma Beta Club Foundation. Zeta Phi Beta Sorority, founded in 1920 with the assistance of Phi Beta Sigma, is the sister organization of the Fraternity.</p>
+    <div class=page-content>
+      <!-- jumbotron
+      ================================================== -->
+      <div id="large-image" class="jumbotron">
+        <div class="container">
+          <img src="../images/alpha-chapter.jpg">
+        </div>
       </div>
 
-      <div id="pbs-pittsburgh" class="col-lg-6">
-        <h2>Sigma In Pittsburgh</h2>
+      <div id="pbs-about" class="row">
+        <div id="pbs-history" class="col-lg-6">
+          <h2>A Brief History of Phi Beta Sigma Fraternity, Inc.</h2>
+          
+          <p>Phi Beta Sigma Fraternity was founded at Howard University in Washington, D.C., January 9, 1914, by three young African-American male students. The Founders, Honorable A. Langston Taylor, Honorable Leonard F. Morse, and Honorable Charles I. Brown, wanted to organize a Greek letter fraternity that would truly exemplify the ideals of brotherhood, scholarship, and service.</p>
 
-        <p>Phi Beta Sigma has 6 chapters in the Greater Pittsburgh Area. On the undergraduate level there are 7 chapters.</p>
-        <ul>
-          <li><span style="color:#07498b;">Epsilon Kappa Chapter</span> - University of Pittsburgh</li>
-          <li><span style="color:#07498b;">Lambda Mu Chapter</span> - Indiana University of Pennsylvania</li>
-          <li><span style="color:#07498b;">Alpha Zeta Alpha Chapter</span> - Slippery Rock University</li>
-          <li><span style="color:#07498b;">Alpha Pi Alpha Chapter</span> - Robert Morris University</li>
-          <li><span style="color:#07498b;">Pi Gamma Chapter</span> - California University of Pennsylvania</li>
-          <li><span style="color:#07498b;">Pi Pi Chapter</span> - Clarion University</li>
-          <li><span style="color:#07498b;">Alpha Eta Alpha Chapter</span>- Edinboro University</li>
-        </ul>
+          <p>The Founders deeply wished to create an organization that viewed itself as “a part of” the general community rather than “apart from” the general community. They believed that each potential member should be judged by his own merits, rather than his family background or affluence…without regard to race, nationality, skin tone or texture of hair. They desired for their fraternity to exist as part of an even greater brotherhood which would be devoted to the “inclusive we” rather than the “exclusive we”.</p>
 
-        <p>The Gamma Lambda Sigma Alumni Chapter oversees all of the undergraduate chapters and carries out the mission of Phi Beta Sigma throughout the entire Greater Pittsburgh and Western Pennsylvania Area.</p>
-      </div>
+          <p>From its inception, the Founders also conceived Phi Beta Sigma as a mechanism to deliver services to the general community. Rather than gaining skills to be utilized exclusively for themselves and their immediate families, they held a deep conviction that they should return their newly acquired skills to the communities from which they had come. This deep conviction was mirrored in the Fraternity’s motto, “Culture For Service and Service For Humanity”.</p>
 
-    </div>
+          <p>Today, Phi Beta Sigma has blossomed into an international organization of leaders. No longer a single entity, members of the Fraternity have been instrumental in the establishment of the Phi Beta Sigma National Foundation, the Phi Beta Sigma Federal Credit Union and The Sigma Beta Club Foundation. Zeta Phi Beta Sorority, founded in 1920 with the assistance of Phi Beta Sigma, is the sister organization of the Fraternity.</p>
+        </div>
+
+        <div id="pbs-pittsburgh" class="col-lg-6">
+          <h2>Sigma In Pittsburgh</h2>
+
+          <p>Phi Beta Sigma has 6 chapters in the Greater Pittsburgh Area. On the undergraduate level there are 7 chapters.</p>
+          <ul>
+            <li><span style="color:#07498b;">Epsilon Kappa Chapter</span> - University of Pittsburgh</li>
+            <li><span style="color:#07498b;">Lambda Mu Chapter</span> - Indiana University of Pennsylvania</li>
+            <li><span style="color:#07498b;">Alpha Zeta Alpha Chapter</span> - Slippery Rock University</li>
+            <li><span style="color:#07498b;">Alpha Pi Alpha Chapter</span> - Robert Morris University</li>
+            <li><span style="color:#07498b;">Pi Gamma Chapter</span> - California University of Pennsylvania</li>
+            <li><span style="color:#07498b;">Pi Pi Chapter</span> - Clarion University</li>
+            <li><span style="color:#07498b;">Alpha Eta Alpha Chapter</span>- Edinboro University</li>
+          </ul>
+
+          <p>The Gamma Lambda Sigma Alumni Chapter oversees all of the undergraduate chapters and carries out the mission of Phi Beta Sigma throughout the entire Greater Pittsburgh and Western Pennsylvania Area.</p>
+        </div>
+      </div> <!--row-->
+    </div>  <!--page-content-->
     
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-          <!-- FOOTER -->
     <footer id="footer">
-      <p>&copy; 2016 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
+        <p>&copy; 2016 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
     </footer>  
-  </body>
 
+
+
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+      <script src="../../assets/js/vendor/holder.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+            <!-- FOOTER -->     
+  </body>
 </html>
