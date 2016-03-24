@@ -14,7 +14,7 @@
   }
 
   .col-lg-4{
-    width: 33%;
+    width: 30%;
     text-align: center;
     padding : 0px;
     display: inline-block;
@@ -31,6 +31,7 @@
   
   .navbar-nav {
     height: 100%;
+    width: 70%;
     font-size: 12px;
   }
 }
