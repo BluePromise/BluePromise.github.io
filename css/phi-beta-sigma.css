@@ -1,7 +1,17 @@
 #phi-beta-sigma {
   color: #5a5a5a;
   height: 1100px;
-  width: 1040px;
+  width: 100%;
+}
+
+#pbs-header{
+  height: 7%;
+}
+#pbs-about > .col-lg-6 {
+  width: 45%;
+  margin: 0px;
+  display: inline-block;
+  text-align: center;
 }
 
 #pbs-about {
@@ -9,19 +19,9 @@
   height: 55%;
 }
 
-#pbs-history{
-  height: 100%;
-  width: 40%;
-  padding: 5px;
-  display: inline-block;
-}
-
-#pbs-pittsburgh{
-  height: 100%;
-  width: 40%;
-  padding: 5px;
-  display: inline-block;
-  top: auto;
+#pbs-pittsburgh {
+  height: 50%;
+  vertical-align: top;
 }
 
 h2 {
