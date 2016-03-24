@@ -4,9 +4,6 @@
   width: 100%;
 }
 
-#pbs-header{
-  height: 7%;
-}
 #pbs-about > .col-lg-6 {
   width: 45%;
   margin: 0px;
@@ -22,6 +19,11 @@
 #pbs-pittsburgh {
   height: 50%;
   vertical-align: top;
+}
+
+#pbs-pittsburgh ul {
+  list-style-type: none;
+  padding: 0px;
 }
 
 h2 {

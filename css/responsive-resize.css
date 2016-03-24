@@ -1,6 +1,14 @@
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 767px){
+  #sigma-beta-club h2 {
+    font-size: 25px;
+  }
+
+  #sigma-beta-club .tenant-title {
+    font-size: 14px;
+  }
+
   .row {
     margin: 0px;
   }
@@ -28,6 +36,75 @@
 }
 
 @media (min-width: 300px) and (max-width: 479px){
+
+  #homepage > .page-content > #myCarousel {
+    height: 15%;
+  }
+
+  #homepage > .page-content > #homeMarketing {
+    height: 80%;
+  }
+
+  #phi-beta-sigma {
+    height: 1800px;
+  }
+
+  #phi-beta-sigma .navbar-wrapper {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 3.6%;
+  }
+
+
+  #phi-beta-sigma > .page-content > #large-image {
+    height: 15%;
+  }
+
+  #pbs-about {
+    margin-left: 2px;
+  }
+
+  #phi-beta-sigma footer {
+    height: 2.5%
+  }
+  
+  #sigma-beta-club {
+    height: 1500px;
+  }
+
+  #sigma-beta-club > .page-content > #large-image {
+    height: 15%;
+  }
+
+  #sigma-beta-club #sbc-history {
+    display: table-cell;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #sigma-beta-club #sbc-tenants {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  #sigma-beta-club .tenant {
+    font-size: 10px;
+  }
+
+  #sigma-beta-club .tenant-title {
+    font-size: 12px;
+  }
+  
+  #sigma-beta-club .tenant-text {
+    font-size: 10px;
+  }
+
+  #sigma-beta-club .tenant-text p{
+    font-size: 12px;
+  }
+
   .container > .navbar-header {
     margin: 0px;
     width: 100%;

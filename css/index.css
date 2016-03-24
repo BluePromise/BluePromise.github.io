@@ -1,14 +1,9 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-body {
-  width: 100%;
-}
-
 #homepage {
     color: #5a5a5a;
     height: 1100px;
-    width: 1040px;
   }
 
 .container{
