@@ -12,23 +12,54 @@
 p {
 	font-size: 18px;
 	color: #07498b;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 5%;
+	margin-right: 5%;
 	text-align: center;
 }
 
 #donate-content, .row {
-	margin: 50px;
+	height: 30%;
+	padding-top: 5%;
 	margin-bottom: 0px;
-	height: 250px;
-	text-align: center;
-	overflow: scroll;
-}
-
-#content, .container {
 	text-align: center;
 }
 
-footer {
-	position: absolute;
+.page-content > .container {
+	height: 27%;
+	text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 766px){
+	#large-image {
+		height: 20%;
+	}
+
+	#donate-content {
+		margin: 10px;
+		height: 50%;
+		text-align: center;
+	}
+
+	#donate-content p {
+		font-size: 16px;
+		margin: 0px;
+		padding-top: 5px;
+	}
+
+	#donate-content ul {
+		padding: 0px;
+		margin-top: 5px; 
+	}
+
+	#donate-content li {
+		margin-top: 5px;
+	}
+
+	#paypal {
+		width: 200px;
+		margin-top: 5%;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 10px;
+	}
 }

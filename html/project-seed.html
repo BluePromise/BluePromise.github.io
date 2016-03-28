@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,11 +29,12 @@
     <!-- Custom styles for this template -->
     <link href="../css/index.css" rel="stylesheet">
     <link href="../css/project-seed.css" rel="stylesheet">
+    <link href="../css/responsive-resize.css" rel="stylesheet">
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
     
-        <!-- Fonts -->
+    <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
   </head>
 <!-- NAVBAR
@@ -54,72 +56,81 @@
               <div id="logo">
                 <a class="navbar-brand" href="#">BLUE PROMISE</a>
               </div>
-            </div>
+            </div><!--navbar-header-->
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li id=home-tab><a href="../index.html">HOME</a></li>
-                <li id=phi-beta-sigma-tab><a href="phi-beta-sigma.html">Phi Beta Sigma</a></li>
-                <li id=bigger-and-better-business-tab><a href="#">Bigger And Better Business
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="project-seed.html">Project Seed</a></li>
+                <li id="home-tab">
+                  <a href="../index.html">HOME</a>
+                </li>
+                <li id="phi-beta-sigma-tab">
+                  <a href="phi-beta-sigma.html">PHI BETA SIGMA</a>
+                </li>
+                <li id="bigger-and-better-business-tab" class="submenu active">
+                  <a href="#"><span class="submenu-header">--</span>BIGGER AND BETTER BUSINESS<span class="submenu-header">--</span></a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="project-seed.html">Project Seed</a>
+                    </li>
                   </ul>
                 </li>
-                <li id="education-tab"><a href="#">Education
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="sigma-beta-club.html">Sigma Beta Club</a></li>
+                <li id="education-tab" class=submenu>
+                  <a href="#"><span class="submenu-header">--</span>EDUCATION<span class="submenu-header">--</span></a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="sigma-beta-club.html" class=submenu-item>Sigma Beta Club</a>
+                    </li>
                   </ul>
                 </li>
-                <li id="social-action-tab"><a href="#">Social Action
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="#">March Of Dimes</a></li>
+                <li id="social-action-tab" class=submenu>
+                  <a href="#"><span class="submenu-header">--</span>SOCIAL ACTION<span class="submenu-header">--</span></a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="march-of-dimes.html" class=submenu-item>March Of Dimes</a>
+                    </li>
                   </ul>
                 </li>
-                <li id=donate-tab><a href="donate.html">DONATE</a></li>
-                </li>
+                <li id="donate-tab"><a href="donate.html">DONATE</a></li>
               </ul>
             </div>
-          </div>
+          </div><!--container-->
         </nav>
-
       </div>
     </div>
 
-
-    <!-- jumbotron
-    ================================================== -->
-    <div id="large-image" class="jumbotron">
-      <div class="container">
-        <img src="../images/project-seed-temp.jpg">
+    <div class=page-content>
+      <!-- jumbotron
+      ================================================== -->
+      <div id="large-image" class="jumbotron">
+        <div class="container">
+          <img src="../images/project-seed-temp.jpg">
+        </div>
       </div>
-    </div>
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div id="project-seed-content" class="row">  
 
-      <p>The <span style="color:#07498b;">Sigma Economic Empowerment Development Project (Project SEED)</span>. is a Bigger & Better Business program developed to focus on two important topics of interest: Financial Management and Home Ownership. This focus provides useful information in both areas and benefits Phi Beta Sigma members, families, and communities. Project SEED is designed to be implemented at all organizational levels, by alumni and collegiate chapters. Each of the program’s components are economically viable and relevant, current concerns of our membership.</p>
+      <div id="project-seed-content" class="row">  
 
-      <p>For college students today, financial management is a vital and necessary skill to be mastered in the new millennium. With the rising cost in campus living, tuition charges, books, and transportation, coupled with the decreasing funding sources for scholarships, loans, and grants, financial management is no longer optional. It is required. Helping more low and moderate-income Americans become homeowners is a national priority. Phi Beta Sigma seeks to play a more important role in sharing positive information about the advantages of homeownership to our members.</p>
+        <p>The <span style="color:#07498b;">Sigma Economic Empowerment Development Project (Project SEED)</span>. is a Bigger & Better Business program developed to focus on two important topics of interest: Financial Management and Home Ownership. This focus provides useful information in both areas and benefits Phi Beta Sigma members, families, and communities. Project SEED is designed to be implemented at all organizational levels, by alumni and collegiate chapters. Each of the program’s components are economically viable and relevant, current concerns of our membership.</p>
 
-    </div><!--row-->
-       <!-- FOOTER -->
+        <p>For college students today, financial management is a vital and necessary skill to be mastered in the new millennium. With the rising cost in campus living, tuition charges, books, and transportation, coupled with the decreasing funding sources for scholarships, loans, and grants, financial management is no longer optional. It is required. Helping more low and moderate-income Americans become homeowners is a national priority. Phi Beta Sigma seeks to play a more important role in sharing positive information about the advantages of homeownership to our members.</p>
+
+      </div><!--row-->
+    </div>  <!--page-content-->
+    
     <footer id="footer">
-      <p>&copy; 2015 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
-    </footer>
+        <p>&copy; 2016 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
+    </footer>  
 
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+      <script src="../../assets/js/vendor/holder.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+            <!-- FOOTER -->     
   </body>
 </html>

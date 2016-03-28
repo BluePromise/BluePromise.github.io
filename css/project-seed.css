@@ -10,15 +10,20 @@
 p {
 	font-size: 18px;
 	color: black;
-	margin-left: 25%;
-	margin-right: 25%;
 }
 
 div #project-seed-content, .row {
 	margin: 50px;
 	height: 389px;
 	text-align: center;
-	overflow: scroll;
 }
 
+@media (min-width: 300px) and (max-width: 766px){
+	#large-image {
+		height: 20%;
+	}
 
+	p {
+		font-size: 14px;
+	}
+}

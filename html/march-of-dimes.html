@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,16 +29,17 @@
     <!-- Custom styles for this template -->
     <link href="../css/index.css" rel="stylesheet">
     <link href="../css/march-of-dimes.css" rel="stylesheet">
+    <link href="../css/responsive-resize.css" rel="stylesheet">
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
     
-        <!-- Fonts -->
+    <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body id="project-seed">
+  <body id="march-of-dimes">
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -54,76 +56,85 @@
               <div id="logo">
                 <a class="navbar-brand" href="#">BLUE PROMISE</a>
               </div>
-            </div>
+            </div><!--navbar-header-->
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li id=home-tab><a href="../index.html">HOME</a></li>
-                <li id=phi-beta-sigma-tab><a href="phi-beta-sigma.html">Phi Beta Sigma</a></li>
-                <li id=bigger-and-better-business-tab><a href="#">Bigger And Better Business
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="project-seed.html">Project Seed</a></li>
+                <li id="home-tab">
+                  <a href="../index.html">HOME</a>
+                </li>
+                <li id="phi-beta-sigma-tab">
+                  <a href="phi-beta-sigma.html">PHI BETA SIGMA</a>
+                </li>
+                <li id="bigger-and-better-business-tab" class=submenu>
+                  <a href="#"><span class="submenu-header">--</span>BIGGER AND BETTER BUSINESS<span class="submenu-header">--</span></a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="project-seed.html">Project Seed</a>
+                    </li>
                   </ul>
                 </li>
-                <li id="education-tab"><a href="#">Education
-                </a>
-                  <ul class="dropdown">
-                    <li><a href="sigma-beta-club.html">Sigma Beta Club</a></li>
+                <li id="education-tab" class=submenu>
+                  <a href="#"><span class="submenu-header">--</span>EDUCATION<span class="submenu-header">--</span></a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="sigma-beta-club.html" class=submenu-item>Sigma Beta Club</a>
+                    </li>
                   </ul>
                 </li>
-                <li id="social-action-tab"><a href="#">Social Action
-                </a>
-                  <ul class="dropdown">
-                    <li class="active"><a href="#">March Of Dimes</a></li>
+                <li id="social-action-tab" class="submenu active"> 
+                  <a href="#"><span class="submenu-header">--</span>SOCIAL ACTION<span class="submenu-header">--</span></a>
+                  <ul class=submenu-item>
+                    <li>
+                      <a href="march-of-dimes.html" class=submenu-item>March Of Dimes</a>
+                    </li>
                   </ul>
                 </li>
-                <li id=donate-tab><a href="donate.html">DONATE</a></li>
-                </li>
+                <li id="donate-tab"><a href="donate.html">DONATE</a></li>
               </ul>
             </div>
-          </div>
+          </div><!--container-->
         </nav>
-
       </div>
     </div>
 
-
-    <!-- jumbotron
-    ================================================== -->
-    <div id="large-image" class="jumbotron">
-      <div class="container">
-        <img src="../images/march-of-dimes.jpg">
+    <div class=page-content>
+      <!-- jumbotron
+      ================================================== -->
+      <div id="large-image" class="jumbotron">
+        <div class="container">
+          <img src="../images/PBS March.png">
+        </div>
       </div>
-    </div>
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div id="project-seed-content" class="row">  
 
-      <p><span style="color:#07498b;">Phi Beta Sigma</span> partners with the March of Dimes. Through this partnership, the two organizations will work together to prevent premature births and build strong fathers and male role modes in the African American community through sponsoring Strong Fathers seminars and Stepping To Save Babies. Our members are committed to take the following actions:</p>
+      <div id="march-of-dimes-content" class="row">  
 
-      <ul style="list-style-type:none">
-              <li>Sigma’s volunteering for local March of Dimes chapters, committees and boards</li>
-              <li>Chapters co-sponsoring and leading with the March of Dimes Strong Fathersseminars in our communities</li>
-              <li>Sigma’s Stepping To Save Babies initiative: Our goal is to raise $75,000 with each chapter contributing a minimum of $200 for March For Babies</li>
-      </ul>
+        <p><span style="color:#07498b;">Phi Beta Sigma</span> partners with the March of Dimes. Through this partnership, the two organizations will work together to prevent premature births and build strong fathers and male role modes in the African American community through sponsoring Strong Fathers seminars and Stepping To Save Babies. Our members are committed to take the following actions:</p>
 
-    </div><!--row-->
-       <!-- FOOTER -->
+        <ul style="list-style-type:none">
+          <li>Sigma’s volunteering for local March of Dimes chapters, committees and boards</li>
+          <li>Chapters co-sponsoring and leading with the March of Dimes Strong Fathersseminars in our communities</li>
+          <li>Sigma’s Stepping To Save Babies initiative: Our goal is to raise $75,000 with each chapter contributing a minimum of $200 for March For Babies</li>
+        </ul>
+
+      </div><!--row-->
+    </div>  <!--page-content-->
+    
     <footer id="footer">
-      <p>&copy; 2016 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
-    </footer>
+        <p>&copy; 2016 Blue Promise &#8729 All Rights Reserved &#8729 Zazu7 Creation</p>
+    </footer>  
 
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+      <script src="../../assets/js/vendor/holder.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+            <!-- FOOTER -->     
   </body>
 </html>

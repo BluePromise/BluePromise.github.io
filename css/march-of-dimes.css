@@ -1,4 +1,4 @@
-#project-seed {
+#march-of-dimes {
 	height: 978px;
 }
 
@@ -10,15 +10,39 @@
 p {
 	font-size: 18px;
 	color: black;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-div #project-seed-content, .row {
+div #march-of-dimes-content, .row {
 	margin: 50px;
 	height: 389px;
 	text-align: center;
-	overflow: scroll;
 }
 
 
+@media (min-width: 300px) and (max-width: 766px){
+	#large-image {
+		height: 20%;
+	}
+
+	div #march-of-dimes-content, .row {
+		margin: 10px;
+		height: 389px;
+		text-align: center;
+	}
+
+	#march-of-dimes-content p {
+		font-size: 16px;
+		margin: 0px;
+	}
+
+	#march-of-dimes-content ul {
+		padding: 0px;
+		margin-top: 5px; 
+	}
+
+	#march-of-dimes-content li {
+		margin-top: 5px;
+	}
+}

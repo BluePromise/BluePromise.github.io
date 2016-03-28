@@ -36,7 +36,7 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 479px){
+@media (min-width: 300px) and (max-width: 766px){
 
   #homepage > .page-content > #myCarousel {
     height: 15%;
@@ -248,6 +248,10 @@
   }
 
   .submenu-item > li > a {
+    color: white;
+  }
+
+  .submenu-header {
     color: white;
   }
 }

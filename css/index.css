@@ -4,8 +4,6 @@
 #homepage {
     color: #5a5a5a;
     height: 1100px;
-    width: 100%;
-    position: absolute;
   }
 
 .container{
@@ -41,7 +39,7 @@ p {
   text-align: center;
   color: white;
   font-family: 'Asset', cursive;
-  font-size: 25px;
+  font-size: 20px;
 }
 
   .nav > .navbar-nav {
@@ -167,22 +165,26 @@ p {
 
 .navbar-nav > #bigger-and-better-business-tab {
   height: 100%;
-  width: 30%
+  width: 24%
 }
 
 .navbar-nav > #education-tab {
   height: 100%;
-  width: 12%
+  width: 16%;
 }
 
 .navbar-nav > #social-action-tab {
   height: 100%;
-  width: 17%
+  width: 20%
 }
 
 .navbar-nav > #donate-tab {
   height: 100%;
-  width: 8%
+  width: 11%
+}
+
+.navbar-nav > li > a {
+  height: 100%;
 }
 
 #submenu-about > li {
@@ -201,21 +203,14 @@ p {
   height: 33%
 }
 
+.submenu-header {
+  color: #07498b;
+}
+
 .page-content {
   height: 94%;
 }
-/*************Page Backgrounds*****************/
-#adopt-a-highway-content {
-  height: 900px;
-  width: 100%;
-  margin: 0px;
-
-}
-
-#adopt-a-highway-content > #large-image {
-  height: 45%;
-}
-
+/*************Indivdual Pages****************/
 .col-lg-8 {
   height: 100%;
   width: 60%;
@@ -299,7 +294,7 @@ p {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 #homeMarketing {
-  height: 55%;
+  height: 57%;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
@@ -403,15 +398,17 @@ p {
 --------------------------------------------------*/
 #footer {
   background-color: #07498b;
-  height: 5%;
+  height: 3%;
   width: 100%;
 
 }
 
 #footer p {
   margin: 0%;
+  padding-top: 1%;
   color: #C0C0C0;
   text-align: center;
+  font-size: 12px;
   font-weight: normal;
   display: block;
 }
