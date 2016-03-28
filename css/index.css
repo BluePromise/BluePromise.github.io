@@ -50,10 +50,10 @@ p {
 
 .nav > li > a {
   border-left: 1px solid rgba(0,0,0,0.2); /*Thin Vertical Separator*/
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
   width: 100%;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -81,9 +81,8 @@ p {
 }
 
 .navbar-header{
-  padding-left: 15px;
   height: 100%;
-  width: 30%;
+  width: 25%;
 }
 
 #navbar {
@@ -160,27 +159,32 @@ p {
 
 .navbar-nav > #phi-beta-sigma-tab {
   height: 100%;
-  width: 19%
+  width: 16%
 }
 
 .navbar-nav > #bigger-and-better-business-tab {
   height: 100%;
-  width: 24%
+  width: 22%
 }
 
 .navbar-nav > #education-tab {
   height: 100%;
-  width: 16%;
+  width: 14%;
 }
 
 .navbar-nav > #social-action-tab {
   height: 100%;
-  width: 20%
+  width: 17%
+}
+
+.navbar-nav > #events-tab {
+  height: 100%;
+  width: 11%
 }
 
 .navbar-nav > #donate-tab {
   height: 100%;
-  width: 11%
+  width: 10%
 }
 
 .navbar-nav > li > a {
