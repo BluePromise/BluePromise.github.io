@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,31 +7,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/blue-promise-favicon/blue-promise-favicon-16x16.png">
+    <link rel="icon" href="../static/images/blue-promise-favicon/blue-promise-favicon-16x16.png">
 
     <title>Blue Promise 501(c)(3) Nonprofit Organization</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="css/index.css" rel="stylesheet">
-    <link href="css/responsive-resize.css" rel="stylesheet">
-
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-
-    <!-- Fonts -->
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <link href="../static/css/index.css" rel="stylesheet">
+    <link href="../static/css/responsive-resize.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/font-awesome/css/font-awesome.css">
     <link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
 
     <!-- Google for Nonprofits Verification -->
@@ -65,13 +46,13 @@
                   <a href="#">HOME</a>
                 </li><!--home-tab-->
                 <li id="phi-beta-sigma-tab">
-                  <a href="html/phi-beta-sigma.html">PHI BETA SIGMA</a>
+                  <a href="phi-beta-sigma-history">PHI BETA SIGMA</a>
                 </li><!--phi-beta-sigma-tab-->
                 <li id="bigger-and-better-business-tab" class=submenu>
                   <a href="#"><span class="submenu-header">--</span>BIGGER AND BETTER BUSINESS<span class="submenu-header">--</span></a>
                   <ul class=submenu-item>
                     <li>
-                      <a href="html/project-seed.html">Project Seed</a>
+                      <a href="project-seed">Project Seed</a>
                     </li>
                   </ul><!--submenu-item-->
                 </li><!--bigger-and-better-business-tab-->
@@ -79,7 +60,7 @@
                   <a href="#"><span class="submenu-header">--</span>EDUCATION<span class="submenu-header">--</span></a>
                   <ul class=submenu-item>
                     <li>
-                      <a href="html/sigma-beta-club.html">Sigma Beta Club</a>
+                      <a href="sigma-beta-club">Sigma Beta Club</a>
                     </li>
                   </ul><!--education-tab-->
                 </li>
@@ -87,7 +68,7 @@
                   <a href="#"><span class="submenu-header">--</span>SOCIAL ACTION<span class="submenu-header">--</span></a>
                   <ul class=submenu-item>
                     <li>
-                      <a href="html/march-of-dimes.html">March Of Dimes</a>
+                      <a href="march-of-dimes">March Of Dimes</a>
                     </li>
                   </ul>
                 </li><!--social-action-tab-->
@@ -95,7 +76,7 @@
                   <a href="#">EVENTS</a>
                 </li>
                 <li id="donate-tab">
-                  <a href="html/donate.html">DONATE</a>
+                  <a href="donate">DONATE</a>
                 </li>
               </ul><!--nav navbar-nav-->
             </div><!--navbar-collapse collapse-->
@@ -111,13 +92,13 @@
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img class="first-slide" src="images/Sigma-Beta.jpg" alt="First slide">
+            <img class="first-slide" src="../static/images/Sigma-Beta.jpg" alt="First slide">
           </div>
           <div class="item">
-            <img class="second-slide" src="images/PBS Service.png" alt="Second slide">
+            <img class="second-slide" src="../static/images/PBS Service.png" alt="Second slide">
           </div>
           <div class="item">
-            <img class="third-slide" src="images/PBS March.png" alt="Third slide">
+            <img class="third-slide" src="../static/images/PBS March.png" alt="Third slide">
           </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -143,7 +124,7 @@
       
           <div id="pbs" class="col-lg-4">
       
-            <img class="img-circle" src="images/pbs-logo-mobile.png" alt="Phi Beta Sigma Fraternity, Inc" width="100" height="100">
+            <img class="img-circle" src="../static/images/pbs-logo-mobile.png" alt="Phi Beta Sigma Fraternity, Inc" width="100" height="100">
       
             <h2>Phi Beta Sigma</h2>
       
@@ -155,7 +136,7 @@
       
           <div id="support" class="col-lg-4">
       
-            <img class="img-circle" src="images/100-years-logo.PNG" alt="The Steel City" width="100" height="100">
+            <img class="img-circle" src="../static/images/100-years-logo.PNG" alt="The Steel City" width="100" height="100">
       
             <h2>Support Our Cause</h2>
       
@@ -167,7 +148,7 @@
       
           <div id="sbc" class="col-lg-4">
       
-            <img class="img-rounded" src="images/sbc-logo-mobile.png" alt="Sigma Beta Club" width="100" height="100">
+            <img class="img-rounded" src="../static/images/sbc-logo-mobile.png" alt="Sigma Beta Club" width="100" height="100">
       
             <h2>Sigma Beta Club</h2>
       
